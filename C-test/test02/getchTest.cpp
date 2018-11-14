@@ -1,9 +1,15 @@
-//
-//  getchTest.cpp
-//  C-test
-//
-//  Created by MAC on 13/11/2018.
-//  Copyright © 2018 MAC. All rights reserved.
-//
-
-#include "getchTest.hpp"
+#include<stdio.h>
+#include "getch.cpp"
+int getch(void);
+int main()
+{
+    printf("Hello");
+    printf("Hello\t");
+    printf("Hello"); getch();
+    printf("Korean\r"); getch();
+    printf("C\n"); getch();
+    printf("King\b\b\b"); getch();
+    printf("ong\n"); getch();
+    return 0;
+    
+}
