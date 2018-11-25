@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04F4F3A4219D5E3B0040FF90 /* pointerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F3A1219D51590040FF90 /* pointerTest.cpp */; };
+		04F4F3A6219E9F240040FF90 /* mallocTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F3A5219E9F240040FF90 /* mallocTest.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +33,7 @@
 		04AAD994219C390300D0BAD4 /* frequentlyAlpha.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = frequentlyAlpha.cpp; sourceTree = "<group>"; };
 		04F4F39F219D4DF20040FF90 /* defineTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = defineTest.cpp; sourceTree = "<group>"; };
 		04F4F3A1219D51590040FF90 /* pointerTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = pointerTest.cpp; sourceTree = "<group>"; };
+		04F4F3A5219E9F240040FF90 /* mallocTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = mallocTest.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 				0480CA5E219C3AE400FA27E7 /* searchPro.cpp */,
 				04F4F3A1219D51590040FF90 /* pointerTest.cpp */,
 				04F4F39F219D4DF20040FF90 /* defineTest.cpp */,
+				04F4F3A5219E9F240040FF90 /* mallocTest.cpp */,
 			);
 			path = test04;
 			sourceTree = "<group>";
@@ -150,7 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04F4F3A4219D5E3B0040FF90 /* pointerTest.cpp in Sources */,
+				04F4F3A6219E9F240040FF90 /* mallocTest.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
